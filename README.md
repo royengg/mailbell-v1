@@ -1,24 +1,24 @@
 
-# 📬 MailBell — Your Smart Email Summarizer + Discord Bot
+#  MailBell — Your Smart Email Summarizer + Discord Bot
 
 MailBell is a Python-based application that combines **FastAPI**, **Discord bot integration**, and **Google Gemini AI** to fetch your recent Gmail messages and deliver AI-generated, point-wise summaries—directly via API or Discord.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✉️ Fetches the 5 most recent Gmail emails using IMAP
-- 🧠 Summarizes emails using **Gemini 2.0 Flash** model
-- 🔒 Filters out spam/promotional content intelligently
-- 🤖 Discord Bot with commands to trigger email summaries
-- 🌐 FastAPI backend to serve summaries via REST endpoint
+-  Fetches the 5 most recent Gmail emails using IMAP
+-  Summarizes emails using **Gemini 2.0 Flash** model
+-  Filters out spam/promotional content intelligently
+-  Discord Bot with commands to trigger email summaries
+-  FastAPI backend to serve summaries via REST endpoint
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
-📦 MailBell
+ MailBell
 ├── main.py              # FastAPI application
 ├── disc.py              # Discord bot integration
 ├── gmail.py             # Gmail fetching via IMAP
@@ -29,7 +29,7 @@ MailBell is a Python-based application that combines **FastAPI**, **Discord bot 
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -65,7 +65,7 @@ uvicorn main:app --reload
 
 ---
 
-## 🤖 Discord Commands
+##  Discord Commands
 
 | Command        | Description                          |
 |----------------|--------------------------------------|
@@ -73,30 +73,30 @@ uvicorn main:app --reload
 
 ---
 
-## 🧠 AI Summary Example
+##  AI Summary Example
 
 When `GET /mail` or `!email` is triggered, Gemini AI provides a clean summary like:
 
 ```
-1. 📌 Subject: Meeting Tomorrow
+1.  Subject: Meeting Tomorrow
    - Reminder for team sync at 10 AM
    - Agenda includes roadmap updates and Q&A
 
-2. 📌 Subject: Invoice #345
+2.  Subject: Invoice #345
    - Payment confirmation received
    - No further action required
 ```
 
 ---
 
-## 🛡️ Security & Privacy
+##  Security & Privacy
 
 - Your email credentials are stored in a local `.env` file and **never exposed** in code.
 - Uses Google’s Gemini AI to summarize email content **locally via API**—no third-party email access.
 
 ---
 
-## 🧪 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint   | Description              |
 |--------|------------|--------------------------|
@@ -105,13 +105,13 @@ When `GET /mail` or `!email` is triggered, Gemini AI provides a clean summary li
 
 ---
 
-## 📄 License
+##  License
 
 MIT License. Feel free to modify and contribute!
 
 ---
 
-## 🙌 Credits
+##  Credits
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Google Generative AI](https://ai.google.dev/)
@@ -120,7 +120,7 @@ MIT License. Feel free to modify and contribute!
 
 ---
 
-## ✨ Future Enhancements
+##  Future Enhancements
 
 - OAuth for Gmail login
 - Web UI dashboard for summaries
