@@ -128,4 +128,4 @@ MIT License. Feel free to modify and contribute!
 
 ---
 
-_Ready to make your inbox smarter? Let MailBell handle the clutter._ 🧠📥
+_Ready to make your inbox smarter? Let MailBell handle the clutter._ 
